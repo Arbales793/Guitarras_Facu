@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: bisque;
+}
+
+a {
+    color: black;
+}
+
+ul.navegacion{
+    list-style-type: none;
+}
+
+ul.navegacion li a {
+    text-decoration: none;
+}
+
+h1 {
+    color: beige;
+    text-align: center;
+}
+
+
+body {
+    background-color: rgba(32, 32, 29, 0.801) ;
+    color: rgb(0, 0, 0);
+    column-gap: normal;
+}
+
+.logo_principal {
+    width: 10 px;
+    height: 10 px;
+}
+
+.contenedor_principal {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-width: 20px;
+    padding-block: 20px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: inherit;
+    display:inline-block;
+    justify-content: center;
+
+}
+
+button {
+    border-radius: 25% 25%;
+}
+
+.contenedor_principal :hover {
+    width: 450px;
+    height: 450px;
+    border-color: rgb(136, 121, 81);
+    transition-timing-function: ease-in-out 2s;
+}
+
+img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 25% 25%;
+    width: 410px;
+    height: 350px;
+}
+
+footer {
+    height: 50px;
+    border-radius: 20% 20%;
+    background-color: brown;
+    text-decoration: none;
+    text-align: center;
+}
+.footer_contactanos {
+    background-color: brown;
+    text-decoration: none;
+}
+main .formulario {
+    text-align: center;
+}
+h2 {
+    color: beige;
+    text-align: center;
+}
+
+main {
+    height: 2300px;
+    text-align: center;
+    box-sizing: border-box;
+}
+footer h6 a{
+    text-decoration: none;
+}
+
+div.formulario {
+    column-gap: normal;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.imagenes {
+    text-align: center;
+    align-items: center;
+    display: flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label.texto_1 {
+    column-gap: normal;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+input.texto_2 {
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 1% 1%;
+    display: flexbox;
+    align-items: center;
+}
+
+textarea.texto_3 {
+    column-gap: normal;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 1% 1%;
+}
+
+#t_y_c {
+    column-gap: normal;
+    text-align: left;
+    box-sizing: border-box;
+}
