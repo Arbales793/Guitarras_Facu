@@ -1,0 +1,75 @@
+/*div.formulario {
+    column-gap: normal;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+textarea.texto_3 {
+    column-gap: normal;
+    text-align: left;
+    box-sizing: border-box;
+    border-radius: 1% 1%;
+}
+*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    div{
+        width: 90%;
+        height: auto;
+
+        input{
+            border-radius: 15px;
+            margin: 5px 5px 5px 10px;
+            padding: 10px 10px 10px 10px;
+        }
+
+    }
+}
+
+textarea{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 15px;
+}
+
+.formulario_botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    input{
+        padding: 5px 5px 5px 5px;
+        margin: 5px 5px 5px 5px;
+        width: 100px;
+        height: 35px;
+        display: flex;
+        border-radius: 8px;
+        text-align: center;
+        justify-content: center;
+    }
+
+}
+
+@media screen (min-width: 320px) and (max-width: 1200px) {
+    textarea{
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 15px;
+    }
+
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+
+
