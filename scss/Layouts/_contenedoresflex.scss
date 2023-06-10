@@ -1,0 +1,21 @@
+.contenedor_principal {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    border-width: 20px;
+    padding-block: 20px;
+    border-radius: 20px;
+    align-items: center;
+    background-color: inherit;
+    display:inline-block;
+    justify-content: center;
+
+}
+
+.contenedor_principal :hover {
+    width: 450px;
+    height: 450px;
+    border-color: rgb(136, 121, 81);
+    transition-timing-function: ease-in-out 2s;
+}

@@ -1,0 +1,22 @@
+footer {
+    height: 50px;
+    border-radius: 20% 20%;
+    background-color:$color_footer_back;
+    text-decoration: none;
+    text-align: center;
+}
+
+.footer_contactanos {
+    background-color:$color_footer_back;
+    text-decoration: none;
+}
+
+footer h6 a{
+    text-decoration: solid;
+}
+
+#t_y_c {
+    column-gap: normal;
+    text-align: left;
+    box-sizing: border-box;
+}
